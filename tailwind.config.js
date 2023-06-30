@@ -12,7 +12,18 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
+      colors: {
+        'tech': '#23CB9F',
+        'darkBg': '#32A5AC'
+      },
+      screens: {
+        'xs': '420px',
+        // => @media (min-width: 420px) { ... }
+      },
+      boxShadow: {
+        'bgFade': '0 0 8px 16px white inset',
+      }
+    }
   },
   plugins: [],
 }
